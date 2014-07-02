@@ -1,5 +1,17 @@
 <template name="timerItem">
   <div class="timer">
-    {{hours}} {{minutes}} {{seconds}}
+    <div class="timerMain">
+      <div class="timerTitle">{{title}}</div>
+      <div class="timerOutput">
+        <div class="timerBoxCell">{{hours}}</div>
+        <div class="timerBoxCell">{{minutes}}</div>
+        <div class="timerBoxCell">{{seconds}}</div>
+      </div>
+      <div class="timerBoxCell">{{count}}</div>
+    </div>
+    <div class="timerRightButtons">
+      <div class="timerButtonCell">Start</div>
+      <div class="timerButtonCell">Reset</div>
+    </div>
   </div>
 </template>
