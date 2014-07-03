@@ -1,6 +1,6 @@
 .timer {
-  width: 523px;
-  height: 67px;
+  width: 515px;
+  height: 294px;
   margin-bottom: 20px;
   color: #333;
 }
@@ -13,7 +13,6 @@
   border: solid;
   border-width: 1px;
   border-top-left-radius: 4px;
-  border-bottom-left-radius: 4px;
   border-color: #ccc;
 }
 
@@ -28,7 +27,7 @@
   border-color: #ccc;
 }
 
-.timerOutput {
+.timerDigitGroup {
   float: left;
   width: 97px;
   height: 33px;
@@ -47,8 +46,22 @@
   border-color: #ccc;
 }
 
+.timerEdit {
+  float: left;
+  width: 452px;
+  height: 227px;
+  padding: 16px;
+  border: solid;
+  border-width: 1px;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+  border-color: #ccc;
+  margin-top: -1px;
+}
+
 .timerRightButtons {
   float: left;
+  width: 63px;
   height: 67px;
   margin-left: -1px;
 }
@@ -70,4 +83,21 @@
 
 .timerButtonCell:last-child {
   margin-top: -1px;
+}
+
+.timerTopRow {
+  width: 418px;
+  height: 53px;
+  margin-bottom: 16px;
+}
+
+.timerNotes {
+  float: left;
+  width: 418px;
+  height: 100px;
+  padding: 5px;
+  border: solid;
+  border-width: 1px;
+  margin-right: 16px;
+  border-color: #ccc;
 }

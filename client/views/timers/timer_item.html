@@ -2,7 +2,7 @@
   <div class="timer">
     <div class="timerMain">
       <div class="timerTitle">{{title}}</div>
-      <div class="timerOutput">
+      <div class="timerDigitGroup">
         <div class="timerBoxCell">{{hours}}</div>
         <div class="timerBoxCell">{{minutes}}</div>
         <div class="timerBoxCell">{{seconds}}</div>
@@ -12,6 +12,26 @@
     <div class="timerRightButtons btn-group-vertical">
       <button type="button" class="btn btn-default">Start</button>
       <button type="button" class="btn btn-default">Reset</button>
+    </div>
+    <div class="timerEdit">
+      <div class="timerTopRow">
+        <div class="titleGroup">
+          <div class="titleCaption">Title</div>
+          <input type="text" class="timerTitle" placeholder="{{title}}"/>
+        </div>
+        <div class="timerInput">
+          <div class="timerDigitGroup">
+            <input type="text" class="timerBoxCell" placeholder="{{hours}}"/>
+            <input type="text" class="timerBoxCell" placeholder="{{minutes}}"/>
+            <input type="text" class="timerBoxCell" placeholder="{{seconds}}"/>
+          </div>
+        </div>
+        <input type="text" class="timerBoxCell" placeholder="{{count}}"/>
+      </div>
+      <div class="timerNotesGroup">
+        <div class="notesCaption">Notes</div>
+        <input type="text" class="timerNotes" placeholder="{{title}}"/>
+      </div>
     </div>
   </div>
 </template>
